@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card {
+    background: rgb(255, 253, 254);
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 15px 15px 0 0;
+    margin-top: 100px;
+}
+
+.card-image{
+    background-color: rgb(238, 145, 145);
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.car-1 {
+    background-image: url(image3.jpg);
+}
+
+.car-2{
+    background-image: url(image7.jpg);
+}
+
+.car-3{
+    background-image: url(image8.jpg);
+}
+
+.card h2{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card p{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    text-align: justify;
+}
+
+.card:hover{
+    background-color: rgb(255, 233, 245);
+    cursor: pointer;
+}
